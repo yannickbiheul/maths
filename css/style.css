@@ -24,6 +24,41 @@ main {
     align-items: center;
 }
 
+.boutonBurger {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    /* border: 1px solid #fff; */
+    cursor: pointer;
+}
+
+.span1 {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 8px;
+    background-color: #fff;
+}
+
+.span2 {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 18px;
+    background-color: #fff;
+}
+
+.span3 {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 28px;
+    background-color: #fff;
+}
+
 .general {
     border: 1px solid #fff;
     width: 75%;
